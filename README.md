@@ -32,13 +32,13 @@ Avec GraphQL, les clients peuvent demander précisément les données nécessair
     mvn install
 3. Lance l'application Spring Boot :
     mvn spring-boot:run
-    Le serveur sera accessible sur `http://localhost:8888`.
+    Le serveur sera accessible sur `http://localhost:8080`.
 
 ### Endpoints
 
 L'endpoint GraphQL est accessible à :
 
-- `POST http://localhost:8888/graphql`
+- `POST http://localhost:8080/graphql`
 
 ## Frontend (Android Java)
 
